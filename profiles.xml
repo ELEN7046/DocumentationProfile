@@ -1,0 +1,322 @@
+<?xml version='1.0' standalone='yes'?>
+<profiles>
+ <profile>
+  <id>doc</id>
+  <label>Documentation</label>
+  <rawdatajson>http://localhost/7046/view/json/documentationneeds.json</rawdatajson>
+  <columns>
+   <column type="single">
+    <id>TotalsBC</id>
+    <label>Birth Certs.</label>
+   </column>
+     <column type="single">
+    <id>TotalsDC</id>
+    <label>Death Certs.</label>
+   </column>
+      <column type="single">
+    <id>TotalsPP</id>
+    <label>Passports</label>
+   </column>
+     <column type="single">
+    <id>TotalsRP</id>
+    <label>Res. Permts.</label>
+   </column>
+    <column type="single">
+    <id>TotalsMC</id>
+    <label>Marriage Certs.</label>
+   </column>
+    <column type="aggregate">
+    <id>TotalsID</id>
+    <label>IDs</label>
+   </column>
+       <column type="region">
+    <id>Province</id>
+    <label>Province</label>
+   </column>
+       <column type="region">
+    <id>District</id>
+    <label>District</label>
+   </column>
+       <column type="region">
+    <id>LocalMunicipality</id>
+    <label>Local Munic.</label>
+   </column>
+     <column type="time">
+    <id>CaptureYear</id>
+    <label>Year</label>
+   </column>
+    <column type="needs">
+    <id>DocNeed</id>
+    <label>Needs</label>
+   </column>
+   </columns>
+ </profile>
+  <profile>
+  <id>eduneed</id>
+  <label>Education Needs</label>
+  <rawdatajson>http://localhost/7046/view/json/educationneeds.json</rawdatajson>
+  <columns>
+   <column type="single">
+    <id>abet</id>
+    <label>ABET</label>
+   </column>
+     <column type="single">
+    <id>feeding</id>
+    <label>Feeding</label>
+   </column>
+      <column type="single">
+    <id>fees</id>
+    <label>Fees</label>
+   </column>
+     <column type="single">
+    <id>textbooks</id>
+    <label>Textbooks</label>
+   </column>
+    <column type="single">
+    <id>transport</id>
+    <label>Transport</label>
+   </column>
+    <column type="aggregate">
+    <id>value</id>
+    <label>Total</label>
+   </column>
+         <column type="region">
+    <id>Province</id>
+    <label>Province</label>
+   </column>
+       <column type="region">
+    <id>District</id>
+    <label>District</label>
+   </column>
+       <column type="region">
+    <id>LocalMunicipality</id>
+    <label>Local Munic.</label>
+   </column>
+     <column type="time">
+    <id>CaptureYear</id>
+    <label>Year</label>
+   </column>
+    <column type="needs">
+    <id>educationneed</id>
+    <label>Needs</label>
+   </column>
+   </columns>
+ </profile>
+  <profile>
+  <id>health</id>
+  <label>Health</label>
+  <rawdatajson>http://localhost/7046/view/json/healthneeds.json</rawdatajson>
+  <columns>
+   <column type="single">
+    <id>FemaleHealthNeeds</id>
+    <label>Female Health</label>
+   </column>
+     <column type="single">
+    <id>HaveDifficulty</id>
+    <label>Have Difficulty</label>
+   </column>
+      <column type="single">
+    <id>HavePermanentDifficulty</id>
+    <label>Permanent Difficulty</label>
+   </column>
+     <column type="single">
+    <id>NeedHealthService</id>
+    <label> Need Health Serv.</label>
+   </column>
+    <column type="single">
+    <id>UsesAid</id>
+    <label>Uses Aid</label>
+   </column>
+       <column type="single">
+    <id>UsesChronicMedication</id>
+    <label>Chronic Meds.</label>
+   </column>
+        <column type="region">
+    <id>Province</id>
+    <label>Province</label>
+   </column>
+       <column type="region">
+    <id>District</id>
+    <label>District</label>
+   </column>
+       <column type="region">
+    <id>LocalMunicipality</id>
+    <label>Local Munic.</label>
+   </column>
+     <column type="time">
+    <id>CaptureYear</id>
+    <label>Year</label>
+   </column>
+    <column type="aggregate">
+    <id>value</id>
+    <label>Total</label>
+   </column>
+    <column type="needs">
+    <id>Needs</id>
+    <label>Needs</label>
+   </column>
+   </columns>
+ </profile>
+ <profile>
+  <id>econo</id>
+  <label>Economic</label>
+  <rawdatajson>http://localhost/7046/view/json/economicneeds.json</rawdatajson>
+  <columns>
+   <column type="single">
+    <id>employmentpercentage</id>
+    <label>Employment Rate</label>
+   </column>
+     <column type="single">
+    <id>totalhouseholds</id>
+    <label>Total Households</label>
+   </column>
+      <column type="single">
+    <id>totalisemployed</id>
+    <label>Total Employed</label>
+   </column>
+     <column type="aggregate">
+    <id>totalpopulation</id>
+    <label> Total Population</label>
+   </column>
+        <column type="region">
+    <id>Province</id>
+    <label>Province</label>
+   </column>
+       <column type="region">
+    <id>District</id>
+    <label>District</label>
+   </column>
+       <column type="region">
+    <id>LocalMunicipality</id>
+    <label>Local Munic.</label>
+   </column>
+     <column type="time">
+    <id>CaptureYear</id>
+    <label>Year</label>
+   </column>
+    <column type="needs">
+    <id>isemployed</id>
+    <label>Needs</label>
+   </column>
+   </columns>
+ </profile>
+  <profile>
+  <id>eduhave</id>
+  <label>Education Haves</label>
+  <rawdatajson>http://localhost/7046/view/json/educationhaves.json</rawdatajson>
+  <columns>
+   <column type="single">
+    <id>noschooling</id>
+    <label>No Schooling</label>
+   </column>
+     <column type="single">
+    <id>notselected</id>
+    <label>No Response</label>
+   </column>
+      <column type="single">
+    <id>primaryfinished</id>
+    <label>(C)Primary Edu.</label>
+   </column>
+   <column type="single">
+    <id>someprimary</id>
+    <label>(NC)Primary Edu.</label>
+   </column>
+     <column type="single">
+    <id>secondaryfinished</id>
+    <label>(C)Secondary Edu.</label>
+   </column>
+     <column type="single">
+    <id>secondaryschool</id>
+    <label>(NC)Secondary Edu.</label>
+   </column>
+     <column type="single">
+    <id>tertiary</id>
+    <label>Tertiary Edu.</label>
+   </column>
+        <column type="region">
+    <id>Province</id>
+    <label>Province</label>
+   </column>
+       <column type="region">
+    <id>District</id>
+    <label>District</label>
+   </column>
+       <column type="region">
+    <id>LocalMunicipality</id>
+    <label>Local Munic.</label>
+   </column>
+     <column type="time">
+    <id>CaptureYear</id>
+    <label>Year</label>
+   </column>
+     <column type="aggregate">
+    <id>value</id>
+    <label> Total</label>
+   </column>
+    <column type="needs">
+    <id>null</id>
+    <label>Needs</label>
+   </column>
+   </columns>
+ </profile>
+ <profile>
+  <id>eduhavewalk</id>
+  <label>Education Walk2School</label>
+  <rawdatajson>http://localhost/7046/view/json/educationwalktoschool.json</rawdatajson>
+  <columns>
+   <column type="single">
+    <id>dontknow</id>
+    <label>Don't Know</label>
+   </column>
+     <column type="single">
+    <id>notselected</id>
+    <label>No Response</label>
+   </column>
+      <column type="single">
+    <id>fifteenthirty</id>
+    <label>16-30 min</label>
+   </column>
+   <column type="single">
+    <id>lessfifteen</id>
+    <label>Less 15 min</label>
+   </column>
+     <column type="single">
+    <id>ninety</id>
+    <label>90 min +</label>
+   </column>
+     <column type="single">
+    <id>sixtyninety</id>
+    <label>61 - 90 min</label>
+   </column>
+     <column type="single">
+    <id>thirtysixty</id>
+    <label>31 - 60 min</label>
+   </column>
+    <column type="needs">
+    <id>link</id>
+    <label>null</label>
+   </column>
+        <column type="region">
+    <id>Province</id>
+    <label>Province</label>
+   </column>
+       <column type="region">
+    <id>District</id>
+    <label>District</label>
+   </column>
+       <column type="region">
+    <id>LocalMunicipality</id>
+    <label>Local Munic.</label>
+   </column>
+     <column type="time">
+    <id>CaptureYear</id>
+    <label>Year</label>
+   </column>
+     <column type="aggregate">
+    <id>value</id>
+    <label> Total</label>
+   </column>
+
+   </columns>
+ </profile>
+</profiles>
